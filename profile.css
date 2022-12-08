@@ -221,6 +221,8 @@
       padding-left: 0.5rem;
       font-size: 1rem;
       font-weight: 500;
+          border-radius: 0.3125rem;
+
   }
     #profile>:nth-child(3) label{
       margin-top: 1rem;
@@ -232,6 +234,8 @@
     padding-left: 0.5rem;
     font-size: 1rem;
     font-weight: 500;
+            border-radius: 0.3125rem;
+
     }
     #profile>:nth-child(3) select:focus{
       border: 0.12rem solid var(--secondary-color);
@@ -284,6 +288,8 @@
     padding-left: 0.5rem;
     font-size: 1rem;
     font-weight: 500;
+          border-radius: 0.3125rem;
+
   }
   form #contact_info article select{
     min-width: min(80%, 700px);
@@ -292,6 +298,8 @@
     padding-left: 0.5rem;
     font-size: 1rem;
     font-weight: 500;
+          border-radius: 0.3125rem;
+
   }
     form #contact_info article select{
       /* Replace Default styling (arrow) */
@@ -612,6 +620,8 @@
       padding-left: 0.5rem;
       font-size: 1rem;
       font-weight: 500;
+          border-radius: 0.3125rem;
+
   }
     #profile>:nth-child(3) label{
       margin-top: 1rem;
@@ -623,6 +633,8 @@
     padding-left: 0.5rem;
     font-size: 1rem;
     font-weight: 500;
+            border-radius: 0.3125rem;
+
     }
     #profile>:nth-child(3) select:focus{
       border: 0.12rem solid var(--secondary-color);
@@ -666,6 +678,8 @@
       padding-left: 0.5rem;
       font-size: 1rem;
       font-weight: 500;
+            border-radius: 0.3125rem;
+
     }
     form #contact_info article select{
       width: 100%;
@@ -674,6 +688,8 @@
       padding-left: 0.5rem;
       font-size: 1rem;
       font-weight: 500;
+            border-radius: 0.3125rem;
+
     }
   form #contact_info article select {
     /* Replace Default styling (arrow) */
