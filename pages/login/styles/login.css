@@ -218,7 +218,8 @@ form .btn-container {
 
     /* MObile desktop view */
     @media screen and (min-height: 992px){
-      header{
+      header .desktop-view{
+        border: 2px solid red;
         position: fixed;
         top: 0;
         width: 100%;

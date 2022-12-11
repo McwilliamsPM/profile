@@ -193,7 +193,7 @@ form .btn-container {
   margin-top: 0.5em;
 }
 
-c:\Users\USA\Desktop\TeamGnatpp-qr-gen.btn-container button:nth-child(1) {
+.btn-container button:nth-child(1) {
   color: white;
   background: var(--primary-color);
 }
@@ -228,7 +228,7 @@ form p a:hover {
 **********************************************/
 @media screen and (min-height: 992px)  {
 
-      header{
+      header .desktop-view{
         position: fixed;
         top: 0;
         width: 100%;
