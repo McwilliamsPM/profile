@@ -227,12 +227,6 @@ form p a:hover {
 
 **********************************************/
 @media screen and (min-height: 992px)  {
-
-      header .desktop-view{
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
       main{
         grid-template-columns: 1fr;
         grid-template-rows: 0 2fr;

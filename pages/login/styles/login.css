@@ -218,12 +218,6 @@ form .btn-container {
 
     /* MObile desktop view */
     @media screen and (min-height: 992px){
-      header .desktop-view{
-        border: 2px solid red;
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
       main{
         grid-template-columns: 1fr;
         grid-template-rows: 0 2fr;
