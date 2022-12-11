@@ -228,16 +228,22 @@ form p a:hover {
 **********************************************/
 @media screen and (min-height: 992px)  {
 
-  main {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0 2fr;
-  }
-  main section:nth-child(1){
-    visibility: hidden;
-  }
-  form {
-    width: 350px;
-  }
+      header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0 2fr;
+      }
+    main section:nth-child(1) {
+      visibility: hidden;
+    }
+    form {
+      width: 500px;
+    }
+  
   
   .items:nth-child(2) ul {
     width: 80%;
