@@ -82,17 +82,24 @@
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"
     integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script>
-    $(document).ready(() => {
-      console.log('clicked');
-    })
 
-    let toggle = document.querySelector('.toggle')
-    let drop_items = document.querySelector('.drop-down');
-    $('.toggle').click(() => {
-      $('.drop-items').slideToggle();
-      console.log('clickeddd');
+    function el() {
+      return {
+        toogle: document.querySelector('.toggle'),
+        drop_items: document.querySelector('.drop-items')
+      }
+    }
+    console.log(el().toogle);
+    el().toogle.addEventListener('click', () => {
+      let check = el().drop_items.classList.contains('slide')
+      if (check) {
+        el().drop_items.classList.remove('slide')
+        console.log('clicked');
+      }
+      else {
+        el().drop_items.classList.add('slide')
+      }
     })
-
 
   </script>
 </body>
